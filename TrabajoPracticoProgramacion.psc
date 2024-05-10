@@ -14,19 +14,19 @@ Algoritmo TrabajoPracticoProgramacion
 					1:
 						burguerMenu1<-'Hamburguesa simple con queso'
 						price1<-3000
-						orderUser<-burguerMenu1
+						orderUser<-orderUser + ' Hamburguesa simple con queso'
 						priceOrder<-price1
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 					2:
 						burguerMenu2<-'Hamburguesa doble con queso'
 						price2<-3800
-						orderUser<-burguerMenu2
-						priceOrder<-price2
+						orderUser<-orderUser + ' Hamburguesa doble con queso'
+						priceOrder<- priceOrder + price2
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 					3:
 						burguerMenu3<-'Hamburguesa triple con queso'
 						price3<-4200
-						orderUser<-burguerMenu3
+						orderUser<-orderUser + ' Hamburguesa triple con queso'
 						priceOrder<-price3
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 				Fin Segun
@@ -37,20 +37,20 @@ Algoritmo TrabajoPracticoProgramacion
 					1:
 						papasMenu1<-'papas simples'
 						price1<-1000
-						orderUser<-papasMenu1
-						priceOrder<-price1
+						orderUser<-orderUser + ' Papas simples'
+						priceOrder<- priceOrder + price1
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',price1
 					2:
 						papasMenu2<-'Papas con cheddar'
 						price2<-2000
-						orderUser<-papasMenu2
+						orderUser<-orderUser + ' Papas con Cheddar'
 						priceOrder<-price2
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',price2
 					3:
-						papasMenu3<-'Papas con cheddar y crispy bacon'
+						papasMenu3<-' Papas con cheddar y crispy bacon'
 						price3<-3000
-						orderUser<-papasMenu3
-						priceOrder<-price3
+						orderUser<-orderUser + ' Papas con cheddar y crispy bacon'
+						priceOrder<- priceOrder + price3
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',price3
 				FinSegun
 			3:
@@ -60,20 +60,20 @@ Algoritmo TrabajoPracticoProgramacion
 					1:
 						postresMenu1<-'McFlurry'
 						price1<-2500
-						orderUser<-postresMenu1
-						priceOrder<-price1
+						orderUser<-orderUser + ' McFlurry'
+						priceOrder<-priceOrder + price1
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceorder
 					2:
 						postresMenu2<-'McFlurry & Oreo'
 						price2<-3500
-						orderUser<-postresMenu2
-						priceOrder<-price2
+						orderUser<-orderUser + ' McFlurry & Oreo'
+						priceOrder<- priceOrder + price2
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 					3:
 						postresMenu3<-'McFlurry & Chocolinas'
 						price3<-3500
-						orderUser<-postresMenu3
-						priceOrder<-price3
+						orderUser<-orderUser + ' McFlurry & Chocolinas'
+						priceOrder<-priceOrder + price3
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 				FinSegun
 			4:
@@ -83,20 +83,20 @@ Algoritmo TrabajoPracticoProgramacion
 					1:
 						ensaladaMenu1<-'Ensalada Simple'
 						price1<-1500
-						orderUser<-ensaladaMenu1
-						priceOrder<-price1
+						orderUser<-orderUser + ' Ensalada simple'
+						priceOrder<-priceOrder + price1
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceorder
 					2:
 						ensaladaMenu2<-'Ensalada Completa'
 						price2<-2500
-						orderUser<-ensaladaMenu2
-						priceOrder<-price2
+						orderUser<-orderUser + ' Ensalada completa'
+						priceOrder<-priceOrder + price2
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 					3:
 						ensaladaMenu3<-'Ensalada de papas'
 						price3<-2900
-						orderUser<-ensaladaMenu3
-						priceOrder<-price3
+						orderUser<-orderUser + ' Ensalada de papas'
+						priceOrder<-priceOrder + price3
 						Escribir 'Usted ordeno ',orderUser,' por un total de $',priceOrder
 				FinSegun
 			De Otro Modo:
